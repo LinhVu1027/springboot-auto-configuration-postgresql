@@ -1,0 +1,14 @@
+postgresql:
+  driver-class-name: org.postgresql.Driver
+  url: jdbc:postgresql://localhost:5432/bv
+  username: postgres
+  password: docker
+
+logging:
+  level:
+    org.springframework: DEBUG
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
